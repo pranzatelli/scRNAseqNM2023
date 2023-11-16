@@ -35,4 +35,8 @@ Download the software from this github repository by typing
 ```
 git clone https://github.com/pranzatelli/scRNAseqNM2023.git
 ```
-into the command line.
+into the command line. Download time should be negligible.
+
+## Demo
+
+To run the code on the data, simply load the data as `adataSG` using `sc.read()` and proceed. For this toy example, the expected output will be a UMAP that resembles a scatterplot and no significantly differentially expressed genes. Run time should be around 30 minutes.
