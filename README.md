@@ -2,7 +2,7 @@
 
 ## Software Requirements
 
-All analysis was done on a computer server running Rocky Linux 8.7 (Green Obsidian).
+All analysis was done on a computer server running Rocky Linux 8.7 (Green Obsidian). This code is not supported on any other Linux distribution or on Windows or Mac. BBKNN was run on an NVIDIA V100-SXM2 with CUDA 11.4.4.
 
 ### Single-Cell RNA-Sequencing
 Analysis of the single-cell RNA-sequencing was done in Python 3.9.4 using
@@ -29,3 +29,10 @@ scanpy 1.8.2
 matplotlib 3.5.1
 seaborn 0.11.2
 ```
+## Instructions for Use
+
+Download the software from this github repository by typing
+```
+git clone https://github.com/pranzatelli/scRNAseqNM2023.git
+```
+into the command line.
